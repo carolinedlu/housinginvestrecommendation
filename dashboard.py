@@ -28,7 +28,7 @@ def main():
     if option != '':
         status = dashboard_choice(status)
 
-    path = 'F:\Real Estate Investment Recommendation\dashboard_app\dashboard_app\kc_house_data.csv'
+    path = 'kc_house_data.csv'
     url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
 
     if status == 'macro_analysis':
